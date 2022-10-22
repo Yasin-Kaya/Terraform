@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def head():
-    return render_template("index.html", number1=34, number2=45)
+    return render_template("index.html", number1=158, number2=85684)
 
 @app.route("/Yasin")
 def number():
@@ -17,4 +17,5 @@ def number():
 
 
 if __name__== "__main__":
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run(host='0.0.0.0', port=80)

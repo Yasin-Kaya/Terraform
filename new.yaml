@@ -39,8 +39,14 @@ Resources:
         yum install python3 -y
         pip3 install flask
         cd /home/ec2-user
-
+        wget https://raw.githubusercontent.com/Kaya-Y/friends-projects/main/flask-01-02-hello-world-app-Jinja-Template/
+        cd flask-01-02-hello-world-app-Jinja-Template/flask-01-hello-world-app/
+        python3 hello-world-app.py
       Tags:
         - Key: Name
           Value: YasinEC2
-Outputs:
+Outputs: 
+  WebsiteURL:
+    Value: !Sub 
+      - http://${PublicAddress}
+      - PublicAddress: !GetAtt YasinEC2.PublicDnsName
