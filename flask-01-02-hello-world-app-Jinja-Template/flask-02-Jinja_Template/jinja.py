@@ -8,7 +8,7 @@ app = Flask(__name__)
 def head():
     return render_template("index.html", number1=34, number2=45)
 
-@app.route("/serdar")
+@app.route("/Yasin")
 def number():
     num1 = 23
     num2 = 54
