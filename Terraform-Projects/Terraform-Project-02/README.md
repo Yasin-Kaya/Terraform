@@ -63,3 +63,8 @@ This file contains the outputs of our Terraform configuration. These outputs can
 - [Terraform Resource: aws_lambda_function](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_function)
 - [Terraform Resource: aws_cloudwatch_event_rule](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_event_rule)
 - [Terraform Resource: aws_sns_topic](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic)
+
+## Contact
+
+- Please contact me to access the project files.
+    * yasinkaya.devops@gmail.com
